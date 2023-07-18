@@ -1,9 +1,0 @@
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Release\netstandard2.0\HtmlToPDFCore.deps.json
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Release\netstandard2.0\HtmlToPDFCore.dll
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\bin\Release\netstandard2.0\HtmlToPDFCore.pdb
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\obj\Release\netstandard2.0\HtmlToPDFCore.csprojAssemblyReference.cache
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\obj\Release\netstandard2.0\HtmlToPDFCore.AssemblyInfoInputs.cache
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\obj\Release\netstandard2.0\HtmlToPDFCore.AssemblyInfo.cs
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\obj\Release\netstandard2.0\HtmlToPDFCore.dll
-D:\cds\git\GitHub\carloscds\HtmlToPDFCore\HtmlToPDFCore\obj\Release\netstandard2.0\HtmlToPDFCore.pdb
-D:\cds\git\github\carloscds\HtmlToPDFCore\HtmlToPDFCore\obj\Release\netstandard2.0\HtmlToPDFCore.csproj.CoreCompileInputs.cache
