@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-16"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>HtmlToPDFCore</id>
+    <title>HtmlToPDFCore</title>
+    <version>1.0.3</version>
+    <authors>Carlos dos Santos</authors>
+    <owners>Carlos dos Santos</owners>
+    <projectUrl>https://github.com/carloscds/HtmlToPDFCore/</projectUrl>
+    <iconUrl>https://github.com/carloscds/HtmlToPDFCore/blob/master/HtmlToPDFCore.png</iconUrl>
+    <description>HTMLToPDF convert HTML to PDF File.</description>
+    <summary>HTMLToPDF convert HTML to PDF File.</summary>
+    <licenseUrl>https://github.com/carloscds/HtmlToPDFCore/blob/master/LICENSE</licenseUrl>
+    <releaseNotes></releaseNotes>
+    <tags>html pdf .net core</tags>
+    <dependencies>
+      <dependency id="Wkhtmltopdf.NetCore" version="1.1.3"/>
+    </dependencies>
+    <contentFiles>
+       <files include="any/any/rotativa/Windows/wkhtmltopdf.exe" buildAction="None" copyToOutput="true" flatten="false"/>
+       <files include="any/any/rotativa/Windows/wkhtmltox.dll" buildAction="None" copyToOutput="true" flatten="false"/>
+       <files include="any/any/rotativa/Linux/libwkhtmltox.so" buildAction="None" copyToOutput="true" flatten="false"/>
+       <files include="any/any/rotativa/Linux/wkhtmltopdf" buildAction="None" copyToOutput="true" flatten="false"/>
+       <files include="any/any/rotativa/Mac/libwkhtmltox.dylib" buildAction="None" copyToOutput="true" flatten="false"/>
+       <files include="any/any/rotativa/Mac/wkhtmltopdf" buildAction="None" copyToOutput="true" flatten="false"/>
+    </contentFiles>
+  </metadata>
+    <files>
+         <file src="rotativa/Windows/wkhtmltopdf.exe" target="contentFiles/any/any/rotativa/Windows/wkhtmltopdf.exe"/>
+         <file src="rotativa/Windows/wkhtmltox.dll" target="contentFiles/any/any/rotativa/Windows/wkhtmltox.dll"/>
+         <file src="rotativa/Linux/libwkhtmltox.so" target="contentFiles/any/any/rotativa/Linux/libwkhtmltox.so"/>
+         <file src="rotativa/Linux/wkhtmltopdf" target="contentFiles/any/any/rotativa/Linux/wkhtmltopdf"/>
+         <file src="rotativa/Mac/libwkhtmltox.dylib" target="contentFiles/any/any/rotativa/Mac/libwkhtmltox.dylib"/>
+         <file src="rotativa/Mac/wkhtmltopdf" target="contentFiles/any/any/rotativa/Mac/wkhtmltopdf"/>
+    </files>
+</package>

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>HtmlToPDFCore</PackageId>
+    <Version>2.0.0</Version>
+    <Authors>Carlos dos Santos</Authors>
+    <Company>Carlos dos Santos</Company>
+    <projectUrl>https://github.com/carloscds/HtmlToPDFCore/</projectUrl>
+    <iconUrl>https://github.com/carloscds/HtmlToPDFCore/blob/master/HtmlToPDFCore.png</iconUrl>
+    <description>HTMLToPDF convert HTML to PDF File.</description>
+    <summary>HTMLToPDF convert HTML to PDF File.</summary>
+    <licenseUrl>https://github.com/carloscds/HtmlToPDFCore/blob/master/LICENSE</licenseUrl>
+    <tags>html pdf .net core</tags>
+  </PropertyGroup>
+ 
+  <ItemGroup>
+    <PackageReference Include="Wkhtmltopdf.NetCore" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Rotativa\Linux\libwkhtmltox.so" Pack="true" PackagePath="contentFiles/any/any/rotativa/Linux" PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Linux\wkhtmltopdf" Pack="true" PackagePath="contentFiles/any/any/rotativa/Linux" PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Mac\libwkhtmltox.dylib" Pack="true" PackagePath="contentFiles/any/any/rotativa/Mac" PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Mac\wkhtmltopdf" Pack="true" PackagePath="contentFiles/any/any/rotativa/Mac" PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Windows\wkhtmltopdf.exe" Pack="true" PackagePath="contentFiles/any/any/rotativa/Windows" PackageCopyToOutput="true" />
+    <Content Include="Rotativa\Windows\wkhtmltox.dll" Pack="true" PackagePath="contentFiles/any/any/rotativa/Windows" PackageCopyToOutput="true" />
+  </ItemGroup>
+</Project>
